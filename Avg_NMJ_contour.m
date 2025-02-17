@@ -6,11 +6,11 @@
 %
 % Version: 0.0.1
 %
-% *Description*: Takes in the rotate coordinates of NMJs and averages them
-% with standard deviation using a contour method, this means it looks for
-% the densest point in the plot and gets the closest 90% of the points.
-% Because of how the code is structured, it doesn't take in consideration
-% the points from dir_in{1} when counting and averaging
+% *Description*: Takes in the coordinates of NMJs from multiple 
+% reconstructed muscles fig files and averages them using:
+% 1st - a Voxel based approach
+% 2nd - a Density Based approach
+% the points from dir_in{1} are used as reference.
 %
 % *REQUIREMENTS*: to run this code you need the muscle reconstructions to
 % be in a .fig file format. You will also need the vol3D program for 3D
