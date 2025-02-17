@@ -28,7 +28,7 @@ figfile{2} = "First Directory to your first reconstructed muscle (.fig file)"; %
 figfile{3} = "Second Directory to your second reconstructed muscle (.fig file)"; % and so on.
 
 %% Settings
-dir_model = "/Users/alessandroascaniorsini/Library/CloudStorage/GoogleDrive-alessandro00lol@gmail.com/My Drive/School/Johns Hopkins/2023:2024/Lab Work/A-histology image processing/3Dreconstruction/muscleModel.mat";
+dir_model = "directory";
 fname = "NMJsCoordinates.mat";
 scalePoints = 10; % scale factor for size of markers
 umpx = 2.1538; % pixels/um
