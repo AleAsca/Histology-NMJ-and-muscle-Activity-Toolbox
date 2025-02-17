@@ -11,24 +11,25 @@ A set of Matlab codes to:
 
 To install and use these codes in MATLAB you can either clone the repository or download and access them.
 
-# analysis_nd2.m and analysis_tiff.m
+# Main codes
+## analysis_nd2.m and analysis_tiff.m
 Analyses the histology slides in either tif or nd2 format and scales them properly, producing a 3D visualization of the slides stacked. It then plots and color codes the NMJ based on an excel sheet present in the same folder. 
 
-## Requirements
+### Requirements
 - CY Y (2025). nd2read (https://github.com/joe-of-all-trades/nd2read), GitHub. Retrieved February 12, 2025.
 - Aaron Wetzler (2025). Bresenham optimized for Matlab (https://www.mathworks.com/matlabcentral/fileexchange/28190-bresenham-optimized-for-matlab), MATLAB Central File Exchange. Retrieved February 12, 2025.
 
-# Avg_NMJ_contour.m
+## Avg_NMJ_contour.m
 This code extracts and normalizes 3D point data from multiple muscle model figures, mapping them onto a common coordinate system based on a reference muscle model. It then defines a 3D voxel grid to calculate point densities and visualizes these densities using a heatmap overlay, along with plotting average point locations per voxel. Additionally, the script applies DBSCAN clustering to the normalized points, computes convex hulls for each dense cluster, and overlays these clusters onto the muscle model with transparent contour surfaces. Overall, it provides a detailed 3D visualization of muscle structure and NMJ distributions by integrating image data, point clustering, and spatial normalization.
 
-## Requirements
+### Requirements
 - Oliver Woodford (2025). vol3d v2 (https://www.mathworks.com/matlabcentral/fileexchange/22940-vol3d-v2), MATLAB Central File Exchange. Retrieved February 12, 2025.
 - extract3DPointsFromFig.m
 
-# MeshOverlap.m
+## MeshOverlap.m
 This code processes a 3D muscle reconstruction by first extracting NMJ (neuromuscular junction) coordinates and muscle structural data from a specified .fig file, and then loads a corresponding 2D heatmap that represents electrode activity. It constructs a mask to define an electrode region based on given scaling and positional parameters, overlays the scaled heatmap onto each muscle layer, and applies a centered subtraction to gradually decrease the intensity of already drawn areas. Finally, the code generates a 3D visualization by creating surfaces for each muscle slice with the adjusted electrode data and plots the NMJ coordinates on top.
 
-## Requirements
+### Requirements
 - extract3DPointsFromFig.m
 
 # Additional Features
