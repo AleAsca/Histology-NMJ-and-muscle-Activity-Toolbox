@@ -53,52 +53,52 @@ Generates a 3D scalebar on a .fig file at coordinates [xc,yc,zc] with length w (
 - Muscle fig file with NMJs and electrode positions from `Heatmap_NMJ_Overlay_90_Shift.m`  
 - Distance CSV file from `Distance_NMJ_CSV_Gen.m`  
 
-### **CONE_VISUALISED.m**
+## **CONE_VISUALISED.m**
 **Description:** Visualizes the cone-shaped muscle model with NMJs and electrodes.  
 **Requirements:**  
 - Muscle fig file with NMJs and electrode positions from `Heatmap_NMJ_Overlay_90_Shift.m`  
 
-### **CYLINDER_INV_Dist_NMJ.m**
+## **CYLINDER_INV_Dist_NMJ.m**
 **Description:** Computes inverse distance mapping for NMJs in a cylindrical muscle structure.  
 **Requirements:**  
 - Muscle fig file with NMJs and electrode positions from `Heatmap_NMJ_Overlay_90_Shift.m`  
 - Distance CSV file from `Distance_NMJ_CSV_Gen.m`  
 
-### **Distance_NMJ_CSV_Gen.m**
+## **Distance_NMJ_CSV_Gen.m**
 **Description:** Generates CSV files containing NMJ distance calculations.  
 **Requirements:**  
 - Muscle fig file with NMJs and electrode positions from `Heatmap_NMJ_Overlay_90_Shift.m`  
 
-### **HEATMAP_MUSCLE_OVERLAY.m**
+## **HEATMAP_MUSCLE_OVERLAY.m**
 **Description:** Overlays a generated EMG heatmap onto the muscle structure.  
 **Requirements:**  
 - Original muscle fig file with NMJs  
 - Raw summed EMG heatmap from `RAW_HEATMAP_COMBINED.m`  
 
-### **Heatmap_NMJ_Overlay_90_Shift.m**
+## **Heatmap_NMJ_Overlay_90_Shift.m**
 **Description:** Creates an overlay of NMJs on an EMG heatmap with a 90-degree shift.  
 **Requirements:**  
 - Original muscle fig file with NMJs  
 - Raw summed EMG heatmap from `RAW_HEATMAP_COMBINED.m`  
 
-### **LOSSY_CONE_NMJ_Electrode_Point.m**
+## **LOSSY_CONE_NMJ_Electrode_Point.m**
 **Description:** Calculates electrode points and NMJ distances for a lossy cone model.  
 **Requirements:**  
 - Muscle fig file with NMJs and electrode positions from `Heatmap_NMJ_Overlay_90_Shift.m`  
 
-### **LOSSY_CONE.m**
+## **LOSSY_CONE.m**
 **Description:** Implements a lossy cone-based model for NMJ distance computation.  
 **Requirements:**  
 - Muscle fig file with NMJs and electrode positions from `Heatmap_NMJ_Overlay_90_Shift.m`  
 - Distance CSV file from `LOSSY_CONE_NMJ_Electrode_Point.m`  
 
-### **Oblate_Spheroid_INV_Dist_NMJ.m**
+## **Oblate_Spheroid_INV_Dist_NMJ.m**
 **Description:** Computes inverse distance mapping for NMJs in an oblate spheroid muscle model.  
 **Requirements:**  
 - Muscle fig file with NMJs and electrode positions from `Heatmap_NMJ_Overlay_90_Shift.m`  
 - Distance CSV file from `Distance_NMJ_CSV_Gen.m`  
 
-### **OBLATE_SPHEROID_VISUALISED.m**
+## **OBLATE_SPHEROID_VISUALISED.m**
 **Description:** Visualizes the oblate spheroid muscle model with NMJs and electrodes.  
 **Requirements:**  
 - Muscle fig file with NMJs and electrode positions from `Heatmap_NMJ_Overlay_90_Shift.m`  
