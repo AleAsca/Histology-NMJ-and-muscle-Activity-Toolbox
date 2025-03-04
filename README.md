@@ -46,7 +46,8 @@ Outlines the borders of the slides in the reconstruction to make them visible ev
 ## scalebar3D.m
 Generates a 3D scalebar on a .fig file at coordinates [xc,yc,zc] with length w (number of units) and label.
 
-### **CONE_INV_Dist_NMJ.m**
+
+## **CONE_INV_Dist_NMJ.m**
 **Description:** Computes inverse distance mapping for NMJs in a conical muscle structure.  
 **Requirements:**  
 - Muscle fig file with NMJs and electrode positions from `Heatmap_NMJ_Overlay_90_Shift.m`  
